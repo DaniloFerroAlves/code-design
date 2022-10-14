@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 172, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+/* 1180 width descontado pel opadding de 10px*/
+#principal {
+    width: 1180px;
+    height: auto;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.50);
+    padding: 10px;
+}
+
+/* inicio do topo */
+#topo {
+    width: 100%;
+    height: 150px;
+
+}
+
+#logo {
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+
+
+#slogan {
+
+    width: 490px;
+    height: 150px;
+    line-height: 150px;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* fim do topo */
+/* inicio do menu */
+#menu {
+    width: 100%;
+    height: 50px;
+    background: rgba(253, 239, 194, 0.5);
+}
+
+#navegacao {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#navegacao li{
+    list-style: none;
+    float: left;
+}
+a.linkmenu:link, a.linkmenu:visited{
+    display: block;
+    width: 234px;
+    height: 48px;
+    background: rgba(241, 168, 57, 0.5);
+    text-align: center;
+    line-height: 48px;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px rgba(255, 255, 255, 0.50) solid;
+}
+a.linkmenu:hover, a.linkmenu:active{
+    background: rgba(250, 206, 140, 0.5);
+    
+}
+#conteudo{
+    width: 1160px;
+    min-height: 330px;
+    background: rgba(249, 225, 189,1.00);
+    padding: 10px;
+    text-align: justify;
+ 
+}
+
+#conteudoleft{
+    width: 560px;
+    min-height: 330px;
+    float: left;
+    
+}
+#conteudoright{
+    width: 560px;
+    height: auto;
+    float: right;
+
+}
+/* Inicio do  pagina contato */
+#form, #mapa{
+    width: 570px;
+    min-height: 400px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#rodape{
+    width: 100%;
+    height: 50px;
+    background: rgba(255, 178, 63,0.5);
+    color: white;
+}
+
+#copy{
+    width: 570px;
+    height: 30px;
+    padding: 10px;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+
+}
+#creditos{
+    width: 570px;
+    height: 30px;
+    padding: 10px;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+}
+#miniaturas{
+    width: 225px;
+    height: 600px;
+    overflow: auto;
+}
+#galeria{
+    width: 920px;
+    height: 600px;
+
+}
+#fotos{
+    width: 860px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+a.credito:link, a.credito:visited{
+    text-decoration: none;
+    color: rgb(255, 242, 242);  
+    font-weight: bold;
+
+}
+a.credito:hover, a.credito:active{
+    color: rgb(46, 43, 39);
+}
+.titulo{
+    text-align: center;
+    
+}
+.subtitulo{
+
+    font-weight: normal;
+    font-size: 15px;
+}
+.esquerda{
+    float: left;
+}
+.marginr10{
+    margin-right: 10px;
+}
+.marginl10{
+    margin-left: 10px;
+}
+.especialista{
+    min-width: 460px;
+    height: 120px;
+    background-color: rgba(255, 206, 132, 0.966);
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.btsaibamais{
+    display: block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1.0);
+    float:  right;
+    width: 90px;
+    height: 28px;
+    background-color: rgba(235, 173, 41, 0.966);
+    padding-top: 14px;
+    text-align: center;
+    margin-top: 20px;
+    
+    
+    
+}
+.italico{
+    font-style: italic;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.direita{
+    float: right;
+}
+
+.servicos{
+    width: 1160px;
+    min-height: 250px;
+    background: rgba(255, 255, 255, 0.966);
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.tituloservico{
+    text-align: center;
+}
+.local{
+    width: 570px;
+    height: 570px;
+    padding-top: 8px;
+}
+.dados{
+    padding-top: 20px;
+    margin-top: 15px;
+}
+.rotulo{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+
+    
+}
+.box{
+    display: block;
+    width: 300px;
+    height: 30px;
+    border: 1;
+    line-height: 30px;
+    border-radius: 5px;
+}
+.textmsg{
+    width: 294px;
+    height: 70px;
+    
+}
+.enviar{
+    height: 30px;
+    width: 110px;
+    font-weight: bold;
+    size: 20px;
+    border-radius: 5px;
+
+}
+.enviar:hover{
+    color: rgba(0, 132, 255, 0.966);
+    background: rgb(255, 249, 235);
+
+}
+.box:{
+
+
+}

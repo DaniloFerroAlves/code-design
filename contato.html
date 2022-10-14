@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construção Site Completo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="principal"> <!-- Inicio da div principal -->
+        <div id="topo">
+            <div id="logo"> <!-- inicio da logo -->
+                <a href="index.html" class="esquerda marginr10"><img src="imagens/code.png" alt=""></a>
+            </div>
+            <div id="slogan"> <!-- slogan -->
+                Code Design, web acessível para todos!!!
+            </div>
+        </div>
+        <div id="menu">
+            <ul id="navegacao">
+                <li><a href="index.html" class="linkmenu">Home</a></li>
+                <li><a href="empresa.html" class="linkmenu">Empresa</a></li>
+                <li><a href="servicos.html" class="linkmenu">Serviços</a></li>
+                <li><a href="portfolio.html" class="linkmenu">Portfólio</a></li>
+                <li><a href="contato.html" class="linkmenu">Contato</a></li>
+            </ul>
+        </div>
+        <div id="conteudo"> <!-- Inicio do conteudo -->
+            <class class="titulo">
+                <h1>Nossos Contatos</h1>
+            </class>
+            <div id="form" class="esquerda">
+                <h3>Fale Conosco</h3>
+                <!--inicio do forms-->
+                <form action="" method="get">
+                    <fieldset class="dados">
+                        <legend>Dados Pessoais</legend>
+
+                        <label for="nome" class="rotulo esquerda">Nome:</label>
+                        <input type="text" id="nome" name="nome" class="box" placeholder="Digite seu nome"><br><br>
+                        <label for="email" class="rotulo esquerda">E-mail:</label>
+                        <input type="email" name="email" id="email" class="box" placeholder="você@exemplo.com"><br><br>
+                        <p>Sexo:</p>
+                        <label for="sexo" class="rotulo">
+                            <input type="radio" name="sexo" id="sexof" >Feminino
+                        </label>
+                        <label for="sexo" class="rotulo">
+                            <input type="radio" name="sexo" id="sexom">Masculino
+                        </label>
+                        <label for="sexo" class="rotulo">
+                            <input type="radio" name="sexo" id="outro">Outro
+                        </label>
+                        <p>Assuntos de interesse?</p>
+                        <label for="interesse">
+                            <input type="checkbox" name="interesse" id="desktop">Desenvolvimento Desktop
+                        </label><br><br>
+                        <label for="interesse">
+                            <input type="checkbox" name="interesse" id="web">Desenvolvimento Web
+                        </label><br><br>
+                        <label for="interesse">
+                            <input type="checkbox" name="interesse" id="bd">Banco de Dados
+                        </label><br><br>
+                        <label for="interesse">
+                            <input type="checkbox" name="interesse" id="site">Desenvolvimento Site
+                        </label><br><br>
+                        <label for="interesse">
+                            <input type="checkbox" name="interesse" id="mobile">Desenvolvimento Mobile
+                        </label>
+                    </fieldset>
+                    <fieldset class="dados">
+                        <legend>Mensagem</legend>
+                        <label for="assunto" class="rotulo esquerda">Assunto:</label>
+                        <select name="assunto" id="" class="box">
+                            <option>Selecione...</option>
+                            <option value="criticas">Criticas</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="elogios">Elogios</option>
+                            <option value="outros">Outros</option>
+                        </select><br><br>
+                        
+                        <label for="comentario" class="rotulo esquerda">Mensagem:</label>
+                        <textarea name="comentario" id="" cols="30" rows="10" class="textmsg"></textarea>
+                    </fieldset><br>
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+            </div>
+            <div id="mapa" class="direita">
+                <h3>Localização</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.938466075857!2d-47.64145257690865!3d-22.73052840126444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631a09ac7b2e1%3A0x197834b105f878e3!2sSenac%20Piracicaba!5e0!3m2!1spt-BR!2sbr!4v1665426571216!5m2!1spt-BR!2sbr" class="local" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            </div>
+            <div class="clearfix">
+
+            </div>
+        </div> <!-- fim da div conteudo-->
+
+            
+        <div id="rodape"><!-- inicio da div rodapé-->
+            <div id="copy">
+                &copy;Copyright 2022 - Code Design - Todos os direitos reservados
+            </div>
+            <div id="creditos">
+                Site desenvolvido por <a href="#" target="_blank" class="credito">Code Design</a>
+            </div>
+        </div> <!-- fim da div rodapé -->
+
+
+
+
+
+
+
+
+    </div> <!-- Fim da div principal -->
+</body>
+</html>
